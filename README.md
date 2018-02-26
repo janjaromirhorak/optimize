@@ -18,3 +18,9 @@ opt.processFile(file).then((dataUrl) => {
     // do whatever you like with the dataUrl (save it to the user, post it to the server, display it in <img>...)
 });
 ```
+
+The Optimizer produces JPEG images of given maximum size and compression ratio. On the input there can be any image format supported by the browser.
+
+If the input file is smaller than the generated file, the original file is returned (which means that PNGs and other formats might show up as the output as well).
+
+**Check out the [live demo](https://optimize.janjaromirhorak.cz/).**
