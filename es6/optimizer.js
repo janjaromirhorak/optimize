@@ -9,9 +9,9 @@
         // do whatever you like with the dataUrl (save it to the user, post it to the server, display it in <img>...)
     });
  */
-class Resizer {
+class Optimizer {
     /**
-     * Initialize the resizer
+     * Initialize the optimizer
      * @param maxSize maximum dimension of the image - the returned image must have both size equal or smaller than this value
      * @param compression - target level of JPEG compression
      */
