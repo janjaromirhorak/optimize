@@ -2,8 +2,8 @@
 Resize and compress images directly in the browser.
 Client side image optimization can be useful to save upload time (and server resources).
 
-The script is written in ES6 using features of the File API and HTML5 Canvas.
-For backwards compatibility the code coulde be transpiled into ES2015 using
+The script is written in **ES6** using features of the [File API](https://w3c.github.io/FileAPI/) and [HTML5 Canvas](https://www.w3.org/TR/html5/semantics-scripting.html#the-canvas-element).
+For backwards compatibility the code could be transpiled into ES2015 using
 Babel or some other JavaScript preprocessor.
 
 No external libraries are needed.
