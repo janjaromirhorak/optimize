@@ -12,8 +12,8 @@
 class Optimizer {
     /**
      * Initialize the optimizer
-     * @param maxSize maximum dimension of the image - the returned image must have both size equal or smaller than this value
-     * @param compression - target level of JPEG compression
+     * @param maxSize maximum dimension of the image - the returned image must have both sizes equal or smaller than this value
+     * @param compression target level of JPEG compression
      */
     constructor(maxSize, compression) {
         this.maxSize = maxSize;
