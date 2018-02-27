@@ -1,11 +1,11 @@
 /**
  * Resize and compress images in the browser
  * usage:
-    let r = new Resizer(500, 75); // max file width and height is 500px, max JPEG compresion ratio is 75
+    let opt = new Optimizer(500, 75); // max file width and height is 500px, max JPEG compresion ratio is 75
 
     // file is an instance of the File class specified by the File API (https://w3c.github.io/FileAPI/)
     // which is usually generated using the <input type="file"> element
-    r.processFile(file).then((dataUrl) => {
+    opt.processFile(file).then((dataUrl) => {
         // do whatever you like with the dataUrl (save it to the user, post it to the server, display it in <img>...)
     });
  */
